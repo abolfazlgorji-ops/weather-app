@@ -1,3 +1,4 @@
+weatherIcon.src = "./image/clouds.png";
 const apiKey = 'c4af6b06840310d5f2817ad39155e1e6';
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=';
 
@@ -52,3 +53,4 @@ searchBtn.addEventListener('click', () => {
         errorMessage.textContent = "Please enter a city name.";
     }
 });
+
